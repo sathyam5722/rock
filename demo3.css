@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: -50%;
+    background: linear-gradient( darkorange);
+background-image: url(https://img.freepik.com/premium-photo/restaurant-night-restaurant-night-generative-ai_980226-2182.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+font-size: 30px;
+color:darkorange;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+    background-color: wheat;
+}
+
+#add-item-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#add-item-form label {
+    flex-basis: 30%;
+    margin-right: 1%;
+}
+
+#add-item-form input,
+#add-item-form button {
+    flex-basis: calc(100% - 100px);
+    margin-bottom: 1rem;
+}
+#items-table2 {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 0rem;
+}
+#items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+}
+
+#items-table th,
+#items-table td {
+    padding: 0.5rem;
+    border: 2px solid darkorange;
+    background-color: wheat;
+}
+
+.totals {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totals p {
+    margin: 0;
+    margin-right: 1rem;
+}
+
+.totals span {
+    font-weight: bold;
+}
+
+.totals button {
+    margin-left: auto;
+    background-color: aquamarine;
+}
